@@ -3,7 +3,7 @@ const { validUsername, validPassword } = require('./constants');
 
 
 
-test.describe('Testing of products page', () => {
+test.describe('Testing of cart page', () => {
 
     test.beforeEach(async ({ page }) => {
         await page.goto('https://www.saucedemo.com/');
